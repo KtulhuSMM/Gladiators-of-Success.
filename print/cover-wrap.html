@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Гладиаторы успеха — обложка-разворот</title>
+<style>
+  @page { size: 304mm 216mm; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { width: 304mm; height: 216mm; margin: 0; }
+  body { overflow: hidden; background: #090a0b; font-family: Georgia, serif; }
+  .wrap { position: relative; width: 304mm; height: 216mm; background: #090a0b; }
+  .back { position: absolute; left: 3mm; top: 3mm; width: 148mm; height: 210mm; padding: 22mm 16mm 16mm; color: #20150a; background: radial-gradient(circle at 15% 15%, #e0bd7a, #ba8a45 48%, #7d5424 100%); }
+  .back h2 { margin: 0 0 11mm; padding-bottom: 5mm; border-bottom: .5mm solid #4e3011; font-family: "DejaVu Sans", sans-serif; font-size: 10pt; letter-spacing: 1.6mm; text-transform: uppercase; }
+  .back p { margin: 0; font-size: 10.2pt; line-height: 1.42; }
+  .back .question { position: absolute; left: 16mm; right: 16mm; bottom: 20mm; padding-top: 5mm; border-top: .5mm solid #4e3011; font-size: 12pt; line-height: 1.3; font-style: italic; }
+  .back .copyright { position: absolute; left: 16mm; bottom: 10mm; font-family: "DejaVu Sans", sans-serif; font-size: 6.5pt; letter-spacing: .25mm; }
+  .spine { position: absolute; left: 151mm; top: 3mm; width: 2mm; height: 210mm; overflow: hidden; color: #d6a13f; background: #090a0b; }
+  .spine span { position: absolute; top: 104mm; left: 1mm; transform: rotate(-90deg) translateX(-50%); transform-origin: left top; white-space: nowrap; font-family: "DejaVu Sans", sans-serif; font-size: 5pt; letter-spacing: .55mm; text-transform: uppercase; }
+  .front { position: absolute; left: 153mm; top: 3mm; width: 148mm; height: 210mm; background: #090a0b url("cover-front-proof.png") center / 100% 100% no-repeat; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="back">
+    <h2>О книге</h2>
+    <p>Чужие доходы, внешность, статус и внимание легко становятся мерой собственной жизни. «Гладиаторы успеха» — христианско-философское эссе о том, как культура зрелища и сравнения влияет на выбор, отношения и труд.</p>
+    <p style="margin-top:5mm">Образ Колизея связывает разговор о социальных сетях, потреблении, любви, ответственности, достоинстве ремесла, вере и бесконечной гонке достижений. Автор не предлагает готовую формулу благополучия, а приглашает проверить собственные цели.</p>
+    <div class="question">Сохранился бы смысл вашей цели, если бы о результате никто не узнал?</div>
+    <div class="copyright">© Николай Копылов, текст, 2026 · Авторское издание</div>
+  </section>
+  <div class="spine"><span>Гладиаторы успеха · Николай Копылов</span></div>
+  <section class="front" aria-label="Лицевая сторона"></section>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Гладиаторы успеха — лицевая обложка</title>
+<style>
+  @font-face { font-family: DejaVu; src: local("DejaVu Sans"); }
+  * { box-sizing: border-box; }
+  html, body { width: 1748px; height: 2480px; margin: 0; overflow: hidden; }
+  body {
+    position: relative;
+    color: #f4e7c6;
+    font-family: DejaVu, sans-serif;
+    background: #090a0b url("../cover-artwork-v1.png") center / cover no-repeat;
+  }
+  body::before {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(4,5,6,.84) 0%, rgba(4,5,6,.20) 37%, rgba(4,5,6,.06) 59%, rgba(4,5,6,.90) 100%);
+  }
+  .safe { position: absolute; inset: 150px 140px; z-index: 1; }
+  .author { font-size: 40px; letter-spacing: 13px; font-weight: 500; text-transform: uppercase; }
+  .rule { width: 440px; height: 4px; margin-top: 44px; background: #c99a3b; }
+  h1 { margin: 490px 0 0; max-width: 1060px; font-size: 170px; line-height: .91; letter-spacing: -8px; font-weight: 800; text-transform: uppercase; }
+  h1 span { display: block; color: #d6a13f; }
+  .subtitle { margin-top: 70px; max-width: 770px; color: #f3e3bd; font-size: 43px; line-height: 1.3; letter-spacing: 7px; text-transform: uppercase; }
+  .tagline { position: absolute; bottom: 80px; left: 0; max-width: 960px; font-family: Georgia, serif; font-size: 50px; line-height: 1.25; }
+  .tagline::before { content: ""; display: block; width: 150px; height: 4px; margin-bottom: 30px; background: #c99a3b; }
+</style>
+</head>
+<body>
+  <main class="safe">
+    <div class="author">Николай Копылов</div>
+    <div class="rule"></div>
+    <h1>Гладиаторы <span>успеха</span></h1>
+    <div class="subtitle">Манифест против фальшивого успеха</div>
+    <div class="tagline">Где твоё место в Колизее?</div>
+  </main>
+</body>
+</html>
